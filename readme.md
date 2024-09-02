@@ -1,5 +1,3 @@
-![Captura de tela de 2024-09-02 19-21-44](https://github.com/user-attachments/assets/74fad6a6-241b-43da-be70-85e33918193b)# HMINS
-
 ## Descrição
 O **HMINS** é um sistema de controle e acompanhamento de indicadores neonatais.
 
