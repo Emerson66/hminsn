@@ -1,5 +1,7 @@
 package com.buritiscript.back_hminsn.endereco.model;
 
+import com.buritiscript.back_hminsn.mae.model.Mae;
+
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -18,4 +20,7 @@ public class Endereco {
   private String numero;
   private String bairro;
   private String Complemento;
+
+  @OneToOne(mappedBy = "endereco")
+  private Mae mae;
 }
