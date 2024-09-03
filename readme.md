@@ -32,5 +32,6 @@ mvn spring-boot:run
 
 ### H2
 Para acessar o banco de dados H2 deve-se entrar no seguinte endereço [http://localhost:8080/h2-console](http://localhost:8080/h2-console) e inserir as seguintes configurações:
+
 ![Captura de tela de 2024-09-02 19-21-44](https://github.com/user-attachments/assets/cb167702-9353-42e4-956f-6edeb0243d24)
 
