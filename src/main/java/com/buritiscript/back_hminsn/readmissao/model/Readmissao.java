@@ -1,15 +1,19 @@
 package com.buritiscript.back_hminsn.readmissao.model;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
+import java.time.*;
+import java.util.Set;
+
+import com.buritiscript.back_hminsn.mae.model.Mae;
 
 import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
-@Data
 @Setter
 @Getter
+@ToString
+@NoArgsConstructor
+@Table(name = "readmissao")
 public class Readmissao {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -17,4 +21,6 @@ public class Readmissao {
   private LocalDateTime dataReadmissao;
   private String motivo;
 
+  @OneToMany(mappedBy = "readmissao")
+  private Set<Mae> maes;
 }
