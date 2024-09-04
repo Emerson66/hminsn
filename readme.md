@@ -21,14 +21,12 @@ O projeto utiliza o **Spring Boot** na versão **3.3.3** e inclui as seguintes d
 
 
 
-## Configuração
+## Setup
 O projeto utiliza o plugin **spring-boot-maven-plugin** para facilitar a construção e execução. Certifique-se de ter o Maven instalado e execute o seguinte comando para iniciar a aplicação:
 
 ```bash
 mvn spring-boot:run
 ```
-
-## Setup
 
 ### H2
 Para acessar o banco de dados H2 deve-se entrar no seguinte endereço [http://localhost:8080/h2-console](http://localhost:8080/h2-console) e inserir as seguintes configurações:
