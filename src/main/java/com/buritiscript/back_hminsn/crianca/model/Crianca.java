@@ -1,6 +1,9 @@
 package com.buritiscript.back_hminsn.crianca.model;
 
 import java.time.LocalDateTime;
+import java.util.Set;
+
+import com.buritiscript.back_hminsn.mae.model.Mae;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -18,4 +21,7 @@ public class Crianca {
   private Integer pesoCrianca;
   private LocalDateTime dataNascimento;
   private String sexo;
+
+  @OneToMany(mappedBy = "crianca")
+  private Set<Mae> maes;
 }

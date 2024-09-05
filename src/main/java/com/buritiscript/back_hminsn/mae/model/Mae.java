@@ -2,6 +2,7 @@ package com.buritiscript.back_hminsn.mae.model;
 
 import java.time.LocalDate;
 
+import com.buritiscript.back_hminsn.crianca.model.Crianca;
 import com.buritiscript.back_hminsn.endereco.model.Endereco;
 import com.buritiscript.back_hminsn.parto.model.Parto;
 import com.buritiscript.back_hminsn.readmissao.model.Readmissao;
@@ -48,4 +49,9 @@ public class Mae {
   @OneToOne(cascade = CascadeType.ALL)
   @JoinColumn(name = "endereco_id", referencedColumnName = "id")
   private Parto parto;
+
+  @ManyToOne
+  @JoinColumn(name = "crianca_id")
+  private Crianca crianca;
+
 }
