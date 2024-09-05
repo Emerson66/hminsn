@@ -35,3 +35,8 @@ Para acessar o banco de dados H2 deve-se entrar no seguinte endereço [http://lo
 
 ![Captura de tela de 2024-09-02 19-21-44](https://github.com/user-attachments/assets/cb167702-9353-42e4-956f-6edeb0243d24)
 
+## Diagramas
+
+### Diagrama de Classe
+
+![neonatal - diagrama de classe-0](https://github.com/user-attachments/assets/68c51a5c-da01-4536-b633-8399767901e7)
